@@ -1,0 +1,35 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.square{
+  position: relative;
+  height: 50px;
+  width: 50px;
+}
+.container{
+  display: grid;
+  align-content: center;
+  width: 500px;
+  height: 500px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  justify-content: center;
+}
+.board_row{
+  display: flex;
+  float: left;
+}
+.board{
+  display: grid;
+}
+
+.main{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 50px;
+}
